@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: url("./image_all/sign_in_up/unload_gun.gif") no-repeat;
+  background-size: cover;
+}
+
+h1{
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+#registration, #connection{
+  width: 50%;
+  margin: 3em auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#registration{
+  height: 25rem;
+  background-color : whitesmoke;
+  border-radius: 0.3rem;
+}
+
+.box{
+  margin: .4rem 0;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+button{
+  font-size: 1.1rem;
+  width: 180px;
+  height: 32px;
+  margin-top: 1.6rem;
+  border: 0.16rem solid #ffffff;
+  border-radius: 0.3rem;
+  background: darkslategray;
+}
+
+button:hover{
+  border: .16rem solid darkslategray;
+  background: #fff;
+}
+
+form p {
+  margin-top: 1.2rem;
+}
