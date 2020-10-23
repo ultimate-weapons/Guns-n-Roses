@@ -13,20 +13,9 @@
 		</a>
 		<ul class="navigation">
 			<li class="selected">
-				<a href="./index.html">home</a>
-			</li>
-			<li>
-				<a href="">handguns</a>
+                <a href="./index.html">home</a>
+                <li></li>
             </li>
-            <li>
-				<a href="">shotguns</a>
-            </li>
-            <li>
-				<a href="">SMGs</a>
-            </li>
-            <li>
-				<a href="">Semi-Auto Rifle</a>
-			</li>
 		</ul>
     </header>
     <!-- catalogue start -->
@@ -39,22 +28,25 @@
         
     </div>
     <!-- show selected weopon -->
-    <div class="productSpec_box close">
+    <div id="pop_gun" class="productSpec_box close">
         <div class="product_spec">
-            <h1>text</h1>
-            <div class="img_product">
+            <p id="closer">+</p>
+            <h1 id="pop_text">text</h1>
+            <div id="pop_div" class="img_product">
                 <!-- product image as background -->
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reprehenderit, provident, ab aliquam enim, eveniet id delectus aperiam saepe sit harum. Mollitia error quidem aliquam reiciendis magni! Ad minus voluptatem labore. <br> Esse fugiat delectus aliquid quisquam vel blanditiis sit, similique facere eius ullam odio soluta omnis autem ex repudiandae debitis sapiente rerum maiores eveniet iste. Facilis adipisci quis molestias voluptas iste nulla at atque nemo culpa, commodi modi laboriosam illum veritatis officiis aspernatur ipsa, suscipit architecto ullam vel ad quidem esse omnis.</p>
             <div class="product_buy">
-                <label for="bullets">bullet Call</label>
-                <input type="number" name="bullets" placeholder="enter number of bullets">
-
+                <!-- <label id="pop_bullet" for="bullets">bullet Call</label>
+                <input type="number" name="bullets" placeholder="enter number of bullets"> -->
+                <h2 id="pop_price">price</h2> 
                 <button id="buy_btn">Buy</button>
             </div>
         </div>
         
     </div>
-    
+    <!-- scrip data -->
+    <script src="./dbase.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
