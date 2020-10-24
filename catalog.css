@@ -59,6 +59,12 @@ li .cart_box:hover{
     border-radius: 50%;
 }
 
+li#cost{
+    position: absolute;
+    top: 60px;
+    right: 34px;
+    font-size: 1.2rem;
+}
 header {
 	padding: 0 0 30px;
 	text-align: center;
@@ -216,60 +222,6 @@ h1{
 }
 
 /* cart style */
-.cart_container_all{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(3, 3, 3, 0.3);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.cart_items{
-    position: relative;
-    width: 60%;
-    height: 80%;
-    background-color: whitesmoke;
-    border-radius: 0.3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
-    padding: 2.6rem;
-    overflow: auto;
-}
-
-.weapon_item{
-    width: 80%;
-    height: 24px;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 0.2rem solid black;
-}
-.weapon_item p{
-    margin-left: 1.6rem;
-}
-
-.delte_price{
-    display: flex;
-}
-.delte_price p {
-    margin-right: 1.6rem;
-}
-
-.total_price{
-    position: absolute;
-    display: flex;
-    bottom: 20px;
-    right: 100px;
-    border-bottom: 0.2rem solid black;
-    height: 24px;
-}
-.total_price p {
-    margin: 0 1.2rem;
-}
 .closer_buy{
     color : red;
     font-weight: 600;

@@ -1,5 +1,4 @@
 var allProducts = [];
-var allBullets =[];
 var idg = 0
 
 function createGun(lable, name, price, bullet, imgLarge){
@@ -11,6 +10,7 @@ function createGun(lable, name, price, bullet, imgLarge){
     gun.price = price;
     gun.bullet = bullet;
     gun.imgLarge = imgLarge;
+    gun.both = 0;
 
     allProducts.push(gun);
     
@@ -46,14 +46,3 @@ var m4a1 = createGun("rifle", "M4 A1", 4200, "5.56 mm", "image_all/database_img/
 var hk416 = createGun("rifle", "HK 416", 5860, "5.56 mm", "image_all/database_img/AsltRfles/HK416_L.png");
 var ak103 = createGun("rifle", "AK 103", 4200, "7.62 x 39 spmm", "image_all/database_img/AsltRfles/AK103_L.png");
 var steyr = createGun("rifle", "Steyr Aug", 3400, "5.56 mm", "image_all/database_img/AsltRfles/Steyr_Aug_L.png");
-// correct by units
-var b9mm = createBullet("9x19 mm", 5);
-var b45call = createBullet(".45 colt", 8);
-var b357Mag = createBullet(".357 Magnum", 18);
-var b44rmg = createBullet(".44 Remington Magnum", 25);
-var b12g = createBullet("12 gauge shells", 2);
-var b5728 = createBullet("5.7x28 mm", 8);
-var b4630 = createBullet("4.6x30 mm", 8);
-var b545 = createBullet("5.45 mm", 6);
-var b556 = createBullet("5.56 mm", 6);
-var b762 = createBullet("7.62 x 39 mm", 10);
